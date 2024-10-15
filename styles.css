@@ -16,7 +16,7 @@ body {
 }
 
 .logo {
-  margin-top: 80; /* Adjust this as needed */
+  margin-top: 120px; /* Adjust this as needed */
   font-size: 48px;
   font-family: 'Times New Roman', Times, serif;
   color: #ffaa00;
@@ -37,7 +37,10 @@ body {
 
 .buttons {
   margin-top: 80px; /* Adjust this value to move buttons lower */
+  margin: 80px;
 }
+
+
 
 .btn {
   font-family: 'Arial', sans-serif; /* Change this to the font you selected */
