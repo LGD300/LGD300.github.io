@@ -16,7 +16,7 @@ body {
 }
 
 .logo {
-  margin-top: 20; /* Adjust this as needed */
+  margin-top: 80; /* Adjust this as needed */
   font-size: 48px;
   font-family: 'Times New Roman', Times, serif;
   color: #ffaa00;
@@ -61,7 +61,7 @@ body {
   background-color: #202020;
 }
 
-.social {
+.social-icons {
   margin-top: 50px;
 }
 
