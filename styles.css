@@ -12,11 +12,11 @@ body {
   flex-direction: column;
   justify-content: flex-start; /* Start from the top */
   align-items: center; /* Center content horizontally */
-  padding-top: 120px; /* Add padding to the top to move content down */
+  padding-top: 200px; /* Add padding to the top to move content down */
 }
 
 .logo {
-  margin-top: 0; /* Adjust this as needed */
+  margin-top: 20; /* Adjust this as needed */
   font-size: 48px;
   font-family: 'Times New Roman', Times, serif;
   color: #ffaa00;
@@ -25,7 +25,7 @@ body {
 
 .restaurant-name {
   font-size: 36px; /* Adjust size as needed */
-  margin-top: 10px; /* Space between logo image and restaurant name */
+  margin-top: 15px; /* Space between logo image and restaurant name */
 }
 
 .logo-img {
@@ -36,7 +36,7 @@ body {
 }
 
 .buttons {
-  margin-top: 60px; /* Adjust this value to move buttons lower */
+  margin-top: 80px; /* Adjust this value to move buttons lower */
 }
 
 .btn {
