@@ -1,0 +1,140 @@
+body {
+  margin: 0; /* Remove default margin */
+  color: black;
+  text-align: center;
+  font-family: 'Arial', sans-serif; /* Change this if needed */
+  background-image: url('Image/Bg-menu.jpg'); /* Set the background image */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center center; /* Centers the background image */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Start from the top */
+  align-items: center; /* Center content horizontally */
+  padding-top: 80px; /* Add padding to the top to move content down */
+}
+
+.logo {
+  margin-top: 0; /* Adjust this as needed */
+  font-size: 48px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffaa00;
+  position: relative; /* Ensure it appears above the background */
+}
+
+.restaurant-name {
+  font-size: 36px; /* Adjust size as needed */
+  margin-top: 10px; /* Space between logo image and restaurant name */
+}
+
+.logo-img {
+  width: 200px; /* Adjust the width to the appropriate size */
+  margin-bottom: 10px; /* Space between the logo and the restaurant name */
+  margin-top: -50px; /* Move the logo image upwards by 20px */
+  padding: 5px; /* Padding inside the border for a better look */
+}
+
+.buttons {
+  margin-top: 60px; /* Adjust this value to move buttons lower */
+}
+
+.btn {
+  font-family: 'Arial', sans-serif; /* Change this to the font you selected */
+  display: flex; /* Use flexbox to align items */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: #ff9898;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 15px 70px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 300px;
+  border-radius: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #202020;
+}
+
+.social {
+  margin-top: 50px;
+}
+
+.social-icons img {
+  width: 40px;
+  margin: 0 15px;
+}
+
+.restaurant-name {
+  font-size: 24px; /* Adjust size as needed */
+  margin-top: 10px; /* Space between logo image and restaurant name */
+  position: relative; /* Ensure it can have an absolute child */
+  color: #ffe79a; /* Default text color */
+  text-shadow: 0 0 5px #b8860b,  /* Muted gold */
+               0 0 10px #b8860b,
+               0 0 15px #b8860b,
+               0 0 20px #b8860b;
+  transition: text-shadow 0.3s ease; /* Smooth transition */
+}
+
+.neon {
+  text-shadow: 0 0 10px #b8860b,  /* Darker gold */
+               0 0 20px #b8860b,
+               0 0 30px #b8860b,
+               0 0 40px #b8860b;
+}
+
+
+.location-container {
+  display: flex; /* Use flexbox to align items */
+  align-items: center; /* Center vertically */
+}
+
+.location-container i {
+  margin-right: 10px; /* Space between the icon and text */
+  font-size: 18px; /* Adjust the size of the icon if necessary */
+}
+
+.location-container span {
+  font-size: 18px; /* Adjust the text size to match the icon */
+}
+
+.social-icons img {
+  width: 40px;
+  margin: 0 15px;
+  filter: sepia(1) saturate(5) hue-rotate(20deg); /* Adjust filter values for gold effect */
+}
+
+.social-icons a {
+  transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center; /* Centers the icons */
+  align-items: center; /* Vertically aligns the icons */
+  margin-top: 20px; /* Adjust this value to move the icons lower */
+}
+
+.social-icons svg {
+  margin: 0 10px; /* Adjust the value as needed for more or less space */
+}
+
+
+.no-underline {
+  text-decoration: none; /* Removes underline */
+}
+
+.no-underline:visited, .no-underline:hover, .no-underline:focus, .no-underline:active {
+  text-decoration: none; /* Ensure underline is removed on all states */
+}
+
