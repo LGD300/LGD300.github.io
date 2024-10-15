@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   justify-content: flex-start; /* Start from the top */
   align-items: center; /* Center content horizontally */
-  padding-top: 80px; /* Add padding to the top to move content down */
+  padding-top: 120px; /* Add padding to the top to move content down */
 }
 
 .logo {
@@ -47,9 +47,9 @@ body {
   background-color: #ff9898;
   color: rgb(0, 0, 0);
   border: none;
-  padding: 15px 70px;
+  padding: 12px 50px; /* Reduce padding */
   margin: 20px auto;
-  width: 80%;
+  width: 90%; /* Slightly increase width for smaller screens */
   max-width: 300px;
   border-radius: 20px;
   font-size: 18px;
