@@ -1,63 +1,56 @@
 body {
-  margin: 0; /* Remove default margin */
+  margin: 0;
   color: black;
   text-align: center;
-  font-family: 'Arial', sans-serif; /* Change this if needed */
-  background-image: url('Image/Full-bg.jpg'); /* Set the background image */
-  background-size: cover; /* Ensures the image covers the entire background */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-position: center center; /* Centers the background image */
-  height: 100vh; /* Full viewport height */
+  font-family: 'Arial', sans-serif;
+  background-image: url('Image/Full-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* Start from the top */
-  align-items: center; /* Center content horizontally */
-  padding-top: 40px; /* Add padding to the top to move content down */
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 40px;
 }
 
 .logo {
-  margin-top: 190px; /* Adjust this as needed */
+  margin-top: 200px; /* Move logo upwards or down in positive */
   font-size: 70px;
-  font-family: 'Times New Roman', Times, serif;
   color: #ffaa00;
-  position: relative; /* Ensure it appears above the background */
+  position: relative;
 }
 
 .restaurant-name {
-  font-family: 'Allura', cursive; /* Use Allura font */
-  font-size: 60px; /* Adjust this size as needed */
-  margin-top: 10px; /* Space between logo image and restaurant name */
-  position: relative; /* Ensure it can have an absolute child */
-  color: #ffe79a; /* Default text color */
-  text-shadow: 0 0 5px #b8860b,  /* Muted gold */
+  font-family: 'Allura', cursive;
+  font-size: 60px;
+  margin-top: -20px; /* Move the restaurant name closer to the logo */
+  color: #ffe79a;
+  text-shadow: 0 0 5px #b8860b,
                0 0 10px #b8860b,
                0 0 15px #b8860b,
                0 0 20px #b8860b;
-  transition: text-shadow 0.3s ease; /* Smooth transition */
+  transition: text-shadow 0.3s ease;
 }
 
-
-
 .logo-img {
-  width: 200px; /* Adjust the width to the appropriate size */
-  margin-bottom: 10px; /* Space between the logo and the restaurant name */
-  margin-top: -50px; /* Move the logo image upwards by 20px */
-  padding: 5px; /* Padding inside the border for a better look */
+  width: 200px;
+  margin-bottom: -20px; /* Move logo image closer to the restaurant name */
+  margin-top: -50px;
+  padding: 5px;
 }
 
 .buttons {
-  margin-top: 80px; /* Adjust this value to move buttons lower */
-  margin: 80px;
+  margin-top: 20px; /* Move buttons upward */
 }
-
-
 
 .btn {
   font-family: 'Arial', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 178, 178, 0.6); /* Slightly transparent background */
+  background-color: rgba(255, 178, 178, 0.6);
   color: rgb(0, 0, 0);
   border: none;
   padding: 15px 160px;
@@ -71,11 +64,11 @@ body {
 }
 
 .btn:hover {
-  background-color: rgba(32, 32, 32, 0.8); /* Slightly transparent on hover */
+  background-color: rgba(32, 32, 32, 0.8);
 }
 
 .social-icons {
-  margin-top: 50px;
+  margin-top: 10px; /* Move icons upward */
 }
 
 .social-icons img {
@@ -83,33 +76,24 @@ body {
   margin: 0 15px;
 }
 
-
-.neon {
-  text-shadow: 0 0 10px #b8860b,  /* Darker gold */
-               0 0 20px #b8860b,
-               0 0 30px #b8860b,
-               0 0 40px #b8860b;
-}
-
-
 .location-container {
-  display: flex; /* Use flexbox to align items */
-  align-items: center; /* Center vertically */
+  display: flex;
+  align-items: center;
 }
 
 .location-container i {
-  margin-right: 10px; /* Space between the icon and text */
-  font-size: 18px; /* Adjust the size of the icon if necessary */
+  margin-right: 10px;
+  font-size: 18px;
 }
 
 .location-container span {
-  font-size: 18px; /* Adjust the text size to match the icon */
+  font-size: 18px;
 }
 
 .social-icons img {
   width: 40px;
   margin: 0 15px;
-  filter: sepia(1) saturate(5) hue-rotate(20deg); /* Adjust filter values for gold effect */
+  filter: sepia(1) saturate(5) hue-rotate(20deg);
 }
 
 .social-icons a {
@@ -120,23 +104,10 @@ body {
   transform: scale(1.1);
 }
 
-.social-icons {
-  display: flex;
-  justify-content: center; /* Centers the icons */
-  align-items: center; /* Vertically aligns the icons */
-  margin-top: -5px; /* Adjust this value to move the icons lower */
-}
-
-.social-icons svg {
-  margin: 0 10px; /* Adjust the value as needed for more or less space */
-}
-
-
 .no-underline {
-  text-decoration: none; /* Removes underline */
+  text-decoration: none;
 }
 
 .no-underline:visited, .no-underline:hover, .no-underline:focus, .no-underline:active {
-  text-decoration: none; /* Ensure underline is removed on all states */
+  text-decoration: none;
 }
-
