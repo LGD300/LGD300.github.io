@@ -12,21 +12,29 @@ body {
   flex-direction: column;
   justify-content: flex-start; /* Start from the top */
   align-items: center; /* Center content horizontally */
-  padding-top: 200px; /* Add padding to the top to move content down */
+  padding-top: 110px; /* Add padding to the top to move content down */
 }
 
 .logo {
   margin-top: 190px; /* Adjust this as needed */
-  font-size: 48px;
+  font-size: 70px;
   font-family: 'Times New Roman', Times, serif;
   color: #ffaa00;
   position: relative; /* Ensure it appears above the background */
 }
 
 .restaurant-name {
-  font-size: 36px; /* Adjust size as needed */
-  margin-top: 15px; /* Space between logo image and restaurant name */
+  font-size: 50px; /* Adjust this size as needed */
+  margin-top: 10px; /* Space between logo image and restaurant name */
+  position: relative; /* Ensure it can have an absolute child */
+  color: #ffe79a; /* Default text color */
+  text-shadow: 0 0 5px #b8860b,  /* Muted gold */
+               0 0 10px #b8860b,
+               0 0 15px #b8860b,
+               0 0 20px #b8860b;
+  transition: text-shadow 0.3s ease; /* Smooth transition */
 }
+
 
 .logo-img {
   width: 200px; /* Adjust the width to the appropriate size */
@@ -50,7 +58,7 @@ body {
   background-color: rgba(255, 178, 178, 0.6); /* Slightly transparent background */
   color: rgb(0, 0, 0);
   border: none;
-  padding: 15px 70px;
+  padding: 15px 160px;
   margin: 20px auto;
   width: 80%;
   max-width: 300px;
@@ -73,17 +81,6 @@ body {
   margin: 0 15px;
 }
 
-.restaurant-name {
-  font-size: 24px; /* Adjust size as needed */
-  margin-top: 10px; /* Space between logo image and restaurant name */
-  position: relative; /* Ensure it can have an absolute child */
-  color: #ffe79a; /* Default text color */
-  text-shadow: 0 0 5px #b8860b,  /* Muted gold */
-               0 0 10px #b8860b,
-               0 0 15px #b8860b,
-               0 0 20px #b8860b;
-  transition: text-shadow 0.3s ease; /* Smooth transition */
-}
 
 .neon {
   text-shadow: 0 0 10px #b8860b,  /* Darker gold */
