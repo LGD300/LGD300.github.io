@@ -24,7 +24,8 @@ body {
 }
 
 .restaurant-name {
-  font-size: 50px; /* Adjust this size as needed */
+  font-family: 'Allura', cursive; /* Use Allura font */
+  font-size: 60px; /* Adjust this size as needed */
   margin-top: 10px; /* Space between logo image and restaurant name */
   position: relative; /* Ensure it can have an absolute child */
   color: #ffe79a; /* Default text color */
@@ -34,6 +35,7 @@ body {
                0 0 20px #b8860b;
   transition: text-shadow 0.3s ease; /* Smooth transition */
 }
+
 
 
 .logo-img {
