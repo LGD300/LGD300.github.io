@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   justify-content: flex-start; /* Start from the top */
   align-items: center; /* Center content horizontally */
-  padding-top: 110px; /* Add padding to the top to move content down */
+  padding-top: 40px; /* Add padding to the top to move content down */
 }
 
 .logo {
@@ -122,7 +122,7 @@ body {
   display: flex;
   justify-content: center; /* Centers the icons */
   align-items: center; /* Vertically aligns the icons */
-  margin-top: 20px; /* Adjust this value to move the icons lower */
+  margin-top: -5px; /* Adjust this value to move the icons lower */
 }
 
 .social-icons svg {
