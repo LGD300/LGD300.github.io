@@ -25,7 +25,7 @@ body {
 .restaurant-name {
   font-family: 'Allura', cursive;
   font-size: 60px;
-  margin-top: -20px; /* Move the restaurant name closer to the logo */
+  margin-top: 1px; /* Move the restaurant name closer to the logo */
   color: #ffe79a;
   text-shadow: 0 0 5px #b8860b,
                0 0 10px #b8860b,
