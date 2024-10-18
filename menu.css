@@ -82,7 +82,7 @@ body {
   transform: translateY(-50%); /* Adjust vertical alignment */
   width: auto; /* Allow the width to adjust based on content */
   white-space: nowrap; /* Prevent text wrapping */
-  color: rgb(219, 223, 6);
+  color: #febd14;
   font-size: 1.2rem;
   font-weight: bold;
   z-index: 1; /* Ensure the text appears above the image */
