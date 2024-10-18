@@ -90,7 +90,7 @@ body {
 
 /* Image Content */
 .image-content {
-  width: 70%; /* adjust % of the box width for the image */
+  width: 120%; /* adjust % of the box width for the image */
   height: 100%; /* Full height */
   overflow: hidden;
   position: relative; /* Position relative for inner content */
@@ -105,7 +105,7 @@ body {
   border-radius: 0; /* Remove border-radius to have full edge */
   clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%); /* Create the parallelogram shape */
   mask-image: linear-gradient(to left, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-  -webkit-mask-image: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)); /* For Safari */
+  -webkit-mask-image: linear-gradient(to left, rgb(255, 176, 176), rgba(255, 255, 255, 0)); /* For Safari */
   filter: blur(0.5px); /* Apply blur to the image */
   transition: transform 0.3s ease; /* Keeps the hover effect */
   position: relative; /* Ensure it stacks correctly with the text */
