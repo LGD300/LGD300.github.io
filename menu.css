@@ -76,7 +76,7 @@ body {
 
 /* Text Content */
 .text-content {
-  width: 45%; /* 50% of the box width for the text */
+  width: 55%; /* 50% of the box width for the text */
   display: flex;
   align-items: center;
   justify-content: center;
