@@ -13,9 +13,9 @@ body {
 /* Center the content and adjust the size for responsiveness */
 .container {
     text-align: center;
-    color: white;
+    color: #fedb14;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5); /* Transparent background for better readability */
+    background-color: rgba(255, 0, 0, 0.5); /* Transparent background for better readability */
     margin: 0 auto;
     max-width: 1200px;
 }
@@ -31,7 +31,7 @@ body {
 
 .product-list img {
     width: 100%;
-    max-width: 250px; /* Adjust the size of the images */
+    max-width: 80%; /* Adjust the size of the images */
     border-radius: 10px;
     transition: transform 0.3s;
 }
