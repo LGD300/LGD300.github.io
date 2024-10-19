@@ -14,10 +14,11 @@ body {
 .container {
     text-align: center;
     color: #fedb14;
-    padding: 20px;
+    padding: 10px;
     background-color: rgba(255, 0, 0, 0.5); /* Transparent background for better readability */
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 600px;
+    border-radius: 40px;
 }
 
 /* Style the product images */
@@ -30,8 +31,8 @@ body {
 }
 
 .product-list img {
-    width: 100%;
-    max-width: 80%; /* Adjust the size of the images */
+    width: 100%; /* Image takes full width of the container */
+    max-width: 250px; /* Default max width */
     border-radius: 10px;
     transition: transform 0.3s;
 }
@@ -44,12 +45,13 @@ body {
 /* Make it responsive for smaller screens */
 @media (max-width: 768px) {
     .product-list img {
-        max-width: 200px;
+        max-width: 90%; /* Change this to a larger value for better visibility */
+        height: auto; /* Maintain aspect ratio */
     }
 }
 
 @media (max-width: 480px) {
     .product-list img {
-        max-width: 150px;
+        max-width: 90%; /* Increase size on smaller screens */
     }
 }
