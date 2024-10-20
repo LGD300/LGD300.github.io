@@ -50,7 +50,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 0, 0, 1);
+  background-color: #C62827;
   color: #000000;
   border: none;
   padding: 15px 160px;
@@ -58,7 +58,7 @@ body {
   width: 80%;
   max-width: 300px;
   border-radius: 20px;
-  font-size: 18px;
+  font-size: 28px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -83,11 +83,12 @@ body {
 
 .location-container i {
   margin-right: 10px;
-  font-size: 18px;
+  font-size: 28px !important;
+  font-weight: bold;
 }
 
 .location-container span {
-  font-size: 18px;
+  font-size: 28px !important;
 }
 
 .social-icons img {
