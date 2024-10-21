@@ -1,0 +1,83 @@
+/* Sidebar Styles */
+.sidebar {
+    position: fixed; /* Fixes the sidebar to the left side */
+    top: 0; /* Aligns to the top */
+    left: 0; /* Aligns to the left */
+    width: 200px; /* Width of the sidebar */
+    height: 100%; /* Full height */
+    background-color: rgba(255, 0, 0, 0.8); /* Background color */
+    display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center; /* Centers items horizontally */
+    padding-top: 20px; /* Space at the top */
+}
+
+/* Back Button Styles */
+.back-button {
+    background-color: #fedb14; /* Button background color */
+    color: rgba(255, 0, 0, 0.8); /* Text color */
+    border: none; /* No border */
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 20px; /* Padding around the text */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+.back-button:hover {
+    background-color: #ffcc00; /* Change color on hover */
+}
+
+/* Existing CSS remains unchanged */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('Image/Full-bg.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.container {
+    text-align: center;
+    color: #fedb14;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.5); /* Transparent background for better readability */
+    margin: 0 auto;
+    max-width: 600px;
+    border-radius: 40px;
+}
+
+.product-list {
+    display: flex;
+    flex-direction: column; /* Stack items in a column */
+    align-items: center; /* Center the images horizontally */
+    gap: 20px; /* Add spacing between images */
+    padding: 20px;
+}
+
+.product-list img {
+    width: 100%; /* Image takes full width of the container */
+    max-width: 250px; /* Default max width */
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.product-list img:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .product-list img {
+        max-width: 90%; /* Change this to a larger value for better visibility */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+@media (max-width: 480px) {
+    .product-list img {
+        max-width: 90%; /* Increase size on smaller screens */
+    }
+}

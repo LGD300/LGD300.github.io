@@ -5,15 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Restaurant Menu</title>
-    <link rel="stylesheet" href="REFRESCOS.css"> <!-- Update the CSS file reference to match your file -->
+    <link rel="stylesheet" href="category_inner.css"> <!-- Update the CSS file reference to match your file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"> <!-- Bootstrap Icons CDN -->
 </head>
 <body>
     <div class="container">
         <h1>REFRESCOS</h1>
+        <button onclick="goBack()" class="back-button">
+            <i class="bi bi-backspace"></i> Volver <!-- Back button with icon -->
+        </button>
     </div>
 
     <div class="product-list">
         <img src="Lista_de_Comida\REFRESCOS.jpg" alt="Product 1"> <!-- Use forward slashes -->
     </div>
+    
+    <script>
+        function goBack() {
+            window.history.back(); // Navigates to the previous page
+        }
+    </script>
 </body>
 </html>
