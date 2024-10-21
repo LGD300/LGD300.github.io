@@ -9,6 +9,12 @@ body {
   background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
+.menu-icon {
+  cursor: pointer; /* Change cursor to pointer to indicate clickable */
+  padding: 10px; /* Add some padding */
+}
+
+
 /* Top Bar */
 .top-bar {
   display: flex;

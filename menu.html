@@ -13,11 +13,11 @@
 
   <!-- Top Bar -->
   <header class="top-bar">
-    <div class="menu-icon">
-      <i class="bi bi-list" style="font-size: 1.5rem; color: white;"></i> <!-- Bootstrap Icon for the menu -->
+    <div class="menu-icon" onclick="goBack()">
+      <i class="bi bi-backspace" style="font-size: 1.5rem; color: white;"></i> <!-- Back button icon -->
     </div>
     <div class="logo-container">
-      <img src="Image/Logo_Jenny_removebg_preview.png" alt="L" class="logo">
+      <img src="Image/Logo_Jenny_removebg_preview.png" alt="Logo" class="logo">
     </div>
     <div class="user-icon">
       <i class="bi bi-instagram"></i>
@@ -34,7 +34,7 @@
             <span>ENTRADA Y SOPA</span>
           </div>
           <div class="image-content">
-            <img src="Imagen del producto\Sopa y Entrada.jpg" alt="Entrada y Sopa">
+            <img src="Imagen del producto/Sopa y Entrada.jpg" alt="Entrada y Sopa">
           </div>
         </div>
       </a>
@@ -45,7 +45,7 @@
             <span>A LA PLANCHA</span>
           </div>
           <div class="image-content">
-            <img src="Imagen del producto\A la Plancha.jpg" alt="A la Plancha">
+            <img src="Imagen del producto/A la Plancha.jpg" alt="A la Plancha">
           </div>
         </div>
       </a>
@@ -56,7 +56,7 @@
             <span>APERITIVO (SIN ACOMPAÑAMIENTO)</span>
           </div>
           <div class="image-content">
-            <img src="Imagen del producto\Aperitivo (Sin Acompañamiento).jpg" alt="Aperitivo (Sin acompañamiento)">
+            <img src="Imagen del producto/Aperitivo (Sin Acompañamiento).jpg" alt="Aperitivo (Sin acompañamiento)">
           </div>
         </div>
       </a>
@@ -67,7 +67,7 @@
             <span>PLATOS VARIADOS</span>
           </div>
           <div class="image-content">
-            <img src="Imagen del producto\Platos Variados.jpg" alt="Platos Variados">
+            <img src="Imagen del producto/Platos Variados.jpg" alt="Platos Variados">
           </div>
         </div>
       </a>
@@ -78,7 +78,7 @@
             <span>ARROCES</span>
           </div>
           <div class="image-content">
-            <img src="Imagen del producto\Arroces.jpg" alt="Arroces">
+            <img src="Imagen del producto/Arroces.jpg" alt="Arroces">
           </div>
         </div>
       </a>
@@ -89,7 +89,7 @@
             <span>PLATOS DE FIDEOS</span>
           </div>
           <div class="image-content">
-            <img src="Imagen del producto\Platos de Fideos.jpg" alt="Platos de Fideos">
+            <img src="Imagen del producto/Platos de Fideos.jpg" alt="Platos de Fideos">
           </div>
         </div>
       </a>
@@ -100,7 +100,7 @@
             <span>VEGETALES Y CARNES</span>
           </div>
           <div class="image-content">
-            <img src="Imagen del producto\Vegetales y Carnes.jpg" alt="Vegetales y Carnes">
+            <img src="Imagen del producto/Vegetales y Carnes.jpg" alt="Vegetales y Carnes">
           </div>
         </div>
       </a>
@@ -111,7 +111,7 @@
             <span>COMBO</span>
           </div>
           <div class="image-content">
-            <img src="Imagen del producto\Combo.jpg" alt="Combo">
+            <img src="Imagen del producto/Combo.jpg" alt="Combo">
           </div>
         </div>
       </a>
@@ -122,7 +122,7 @@
             <span>BANDEJAS FAMILIARES</span>
           </div>
           <div class="image-content">
-            <img src="Imagen del producto\BANDEJAS FAMILIARES.jpg" alt="Bandejas Familiares">
+            <img src="Imagen del producto/BANDEJAS FAMILIARES.jpg" alt="Bandejas Familiares">
           </div>
         </div>
       </a>
@@ -133,7 +133,7 @@
             <span>REFRESCOS</span>
           </div>
           <div class="image-content">
-            <img src="Imagen del producto\Refresco.jpg" alt="Refrescos">
+            <img src="Imagen del producto/Refresco.jpg" alt="Refrescos">
           </div>
         </div>
       </a>
@@ -141,5 +141,11 @@
 
   </div>
 
+  <script>
+    function goBack() {
+      window.history.back(); // Navigates to the previous page
+    }
+  </script>
+  
 </body>
 </html>
